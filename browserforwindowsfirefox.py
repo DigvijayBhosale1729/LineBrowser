@@ -15,7 +15,7 @@ def windowsOpenSite(website):
     driver= webdriver.Firefox(executable_path='./geckodriver_win64.exe')
     driver.get(website)
 
-    driver.quit()
+
     return (driver)
 
 def windowsSearchByID(website, identifier, uinput):
@@ -32,7 +32,7 @@ def windowsSearchByID(website, identifier, uinput):
     search.send_keys(Keys.RETURN)
 
 
-    driver.quit()
+
     return (driver)
 
 def windowsSearchByName(website, identifier, uinput):
@@ -50,7 +50,7 @@ def windowsSearchByName(website, identifier, uinput):
     search.send_keys(Keys.RETURN)
 
 
-    driver.quit()
+
     return (driver)
 
 def windowsSearchByXpath(website, identifier, uinput):
@@ -66,9 +66,9 @@ def windowsSearchByXpath(website, identifier, uinput):
     #search= driver.find_element_by_xpath(identifier)
     search.send_keys(uinput)
     search.send_keys(Keys.RETURN)
-    
 
-    driver.quit()
+
+
     return (driver)
 
 def windowsSearchByTagName(website, identifier, uinput):
@@ -86,7 +86,7 @@ def windowsSearchByTagName(website, identifier, uinput):
     search.send_keys(Keys.RETURN)
 
 
-    driver.quit()
+
     return (driver)
 
 def windowsSearchByLinkText(website, identifier, uinput):
@@ -104,5 +104,5 @@ def windowsSearchByLinkText(website, identifier, uinput):
     search.send_keys(Keys.RETURN)
 
 
-    driver.quit()
+
     return (driver)

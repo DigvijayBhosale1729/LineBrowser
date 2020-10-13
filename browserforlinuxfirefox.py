@@ -14,7 +14,7 @@ def linuxOpenSite(website):
     driver.get(website)
 
 
-    driver.quit()
+
     return (driver)
 
 def linuxSearchByID(website, identifier, uinput):
@@ -32,7 +32,7 @@ def linuxSearchByID(website, identifier, uinput):
     search.send_keys(Keys.ENTER)
 
 
-    driver.quit()
+
     return (driver)
 
 def linuxSearchByName(website, identifier, uinput):
@@ -49,8 +49,6 @@ def linuxSearchByName(website, identifier, uinput):
     search.send_keys(uinput)
     search.send_keys(Keys.RETURN)
 
-
-    driver.quit()
     return (driver)
 
 def linuxSearchByXpath(website, identifier, uinput):
@@ -68,7 +66,7 @@ def linuxSearchByXpath(website, identifier, uinput):
     search.send_keys(Keys.RETURN)
 
 
-    driver.quit()
+
     return (driver)
 
 def linuxSearchByTagName(website, identifier, uinput):
@@ -87,7 +85,7 @@ def linuxSearchByTagName(website, identifier, uinput):
     search.send_keys(Keys.RETURN)
 
 
-    driver.quit()
+
     return (driver)
 
 def linuxSearchByLinkText(website, identifier, uinput):
@@ -105,5 +103,5 @@ def linuxSearchByLinkText(website, identifier, uinput):
     search.send_keys(Keys.RETURN)
 
 
-    driver.quit()
+
     return (driver)

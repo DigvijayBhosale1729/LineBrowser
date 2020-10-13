@@ -21,7 +21,5 @@ def inputfn():
     data[1]=identifier
     data[2]=uinput
     data[3]=itype
-    if clicker==None:
-        data[4]==0
     data[4]=clicker
     return(data)

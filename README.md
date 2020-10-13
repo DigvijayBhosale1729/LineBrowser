@@ -1,13 +1,13 @@
-## LineBrowser
+# LineBrowser
 LineBrowser is a command line tool that utilizes an installed browser to automate the process of searching, or searching and clicking in a easy and user friendly way
 
-# Installation for Linux users
+## Installation for Linux users
 
        git clone https://github.com/FoxSinOfGreed1729/LineBrowser.git
        cd LineBrowser
        pip install -r requirements.txt
        
-# Installation for Windows users
+## Installation for Windows users
 
        git clone https://github.com/FoxSinOfGreed1729/LineBrowser.git   Usage: python3 browser.py [options] argument use -h for help
 
@@ -27,7 +27,7 @@ If Pip is not installed, install it using
 
     pip install pip
 
-# How to use the tool
+## How to use the tool
 
     Usage: python3 browser.py [options] argument use -h for help
 
@@ -41,7 +41,7 @@ If Pip is not installed, install it using
       -m UINPUT      Specify the text you want to input into the search field
       -c CLICKER     Specify link text you want to click after searching
       
-# Indivisual options explained
+## Indivisual options explained
 
       -u WEBSITE     Specify url of website you want to browse
 The Website should be in quotation marks
@@ -64,7 +64,7 @@ This is the link that LineBrowser will click.
 Note that this is the link text, not the link URL
 This too has to be in quotation marks.
 
-# Requirements
+## Requirements
 LineBrowser currently uses only Mozilla Firefox with a version higher than 79.0
 Hence, update your browser to the latest version to avoid any bugs.
 

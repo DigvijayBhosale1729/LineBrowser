@@ -17,4 +17,4 @@ def linuxClick(driver, identifier):
         search.click()
     except:
         print('Could not find desired text')
-    driver.quit()
+    return

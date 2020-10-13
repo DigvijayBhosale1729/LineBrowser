@@ -10,16 +10,6 @@ LineBrowser is a command line tool that utilizes an installed browser to automat
 ## Installation for Windows users
 
        git clone https://github.com/FoxSinOfGreed1729/LineBrowser.git   Usage: python3 browser.py [options] argument use -h for help
-
-Options:
-  -h, --help     show this help message and exit
-  -u WEBSITE     Specify url of website you want to browse
-  -t ITYPE       Specify the type of identifier you want to use to search 1
-                 for ID, 2 for Link Text, 3 for Name, 4 for Tag Name, 5 for
-                 Xpath
-  -i IDENTIFIER  Specify the identifier you want to use for searching
-  -m UINPUT      Specify the text you want to input into the search field
-  -c CLICKER     Specify link text you want to click after searching
        dir LineBrowser
        pip install -r requirements.txt
        

@@ -1,4 +1,8 @@
-#Main
+#Written by FoxSinOfGreed1729
+#Thanks to the developers of Selenium, and Firefox, and Python
+
+
+
 import platform
 import browserforlinuxfirefox
 import browserforwindowsfirefox
@@ -13,15 +17,10 @@ if platform.system()=='Linux':
     try:
         print('Linux')
         data=[None, None, None, None, None]
-        print('Initialization smooth')
         data=browserinput.inputfn()
-        print('input smooth')
-        print(data)
         if data[2]==None:
             browserforlinuxfirefox.linuxOpenSite(data[0])
         elif data[4]==None:
-            print('In 2')
-            print(data)
             if data[3]==1:
                 driverobj=browserforlinuxfirefox.linuxSearchByID(data[0],data[1],data[2])
             elif data[3]==2:
